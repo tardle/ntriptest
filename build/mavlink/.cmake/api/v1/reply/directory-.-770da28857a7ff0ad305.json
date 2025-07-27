@@ -1,0 +1,161 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Dev",
+			"destination" : "include/mavlink",
+			"paths" : 
+			[
+				"/home/tardle/ntriptest/build/mavlink/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Dev",
+			"destination" : "include/mavlink",
+			"paths" : 
+			[
+				{
+					"from" : "/home/tardle/ntriptest/build/mavlink/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Dev",
+			"destination" : "share/mavlink",
+			"paths" : 
+			[
+				{
+					"from" : "/home/tardle/ntriptest/build/mavlink/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Dev",
+			"destination" : "share",
+			"paths" : 
+			[
+				"share/mavlink"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cmake",
+			"destination" : "share/mavlink/cmake",
+			"paths" : 
+			[
+				"/home/tardle/ntriptest/build/mavlink/mavlink-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "pkgconfig",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/tardle/ntriptest/build/mavlink/mavlink.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "license",
+			"destination" : "share/mavlink",
+			"paths" : 
+			[
+				"/home/tardle/ntriptest/build/mavlink/COPYING.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "catkin",
+			"destination" : "share/mavlink",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

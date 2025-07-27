@@ -1,0 +1,44 @@
+[0.285s] Invoking command in '/home/tardle/ntriptest/build/mavros_extras': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros_extras -- -j32 -l32
+[0.318s] [  4%] Built target servo_state_publisher
+[0.319s] [  9%] Built target mavros_extras
+[0.380s] [ 11%] [32m[1mLinking CXX shared library libmavros_extras_plugins.so[0m
+[10.923s] [100%] Built target mavros_extras_plugins
+[10.929s] Invoked command in '/home/tardle/ntriptest/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros_extras -- -j32 -l32
+[10.930s] Invoking command in '/home/tardle/ntriptest/build/mavros_extras': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros_extras
+[10.935s] -- Install configuration: ""
+[10.935s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/mavros_plugins.xml
+[10.936s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/lib/mavros_extras/servo_state_publisher
+[10.937s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/lib/libmavros_extras.so
+[10.938s] -- Installing: /home/tardle/ntriptest/install/mavros_extras/lib/libmavros_extras_plugins.so
+[10.995s] -- Set runtime path of "/home/tardle/ntriptest/install/mavros_extras/lib/libmavros_extras_plugins.so" to ""
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/include
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/include/mavros_extras
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/include/mavros_extras/servo_state_publisher.hpp
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/launch
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/launch/px4flow_pluginlists.yaml
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/launch/px4flow_config.yaml
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/launch/servo_state_publisher.yaml
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/launch/px4flow.launch
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/environment/library_path.sh
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/environment/library_path.dsv
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/ament_index/resource_index/package_run_dependencies/mavros_extras
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/ament_index/resource_index/parent_prefix_path/mavros_extras
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.sh
+[10.995s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.dsv
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/environment/path.sh
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/environment/path.dsv
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/local_setup.bash
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/local_setup.sh
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/local_setup.zsh
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/local_setup.dsv
+[10.996s] -- Installing: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.dsv
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/ament_index/resource_index/packages/mavros_extras
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros_extras
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/ament_index/resource_index/rclcpp_components/mavros_extras
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_libraries-extras.cmake
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.996s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+[10.997s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+[10.997s] -- Up-to-date: /home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.xml
+[10.997s] Invoked command in '/home/tardle/ntriptest/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros_extras

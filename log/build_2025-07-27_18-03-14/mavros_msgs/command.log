@@ -1,0 +1,1 @@
+Invoking command in '/home/tardle/ntriptest/build/mavros_msgs': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake /home/tardle/ntriptest/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/tardle/ntriptest/install/mavros_msgs

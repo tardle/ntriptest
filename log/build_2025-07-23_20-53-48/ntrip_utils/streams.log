@@ -1,0 +1,30 @@
+[0.345s] Invoking command in '/home/tardle/ntriptest/src/ntrip_utils': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_utils build --build-base /home/tardle/ntriptest/build/ntrip_utils/build install --record /home/tardle/ntriptest/build/ntrip_utils/install.log --single-version-externally-managed install_data
+[0.409s] /home/tardle/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.409s]   warnings.warn(msg)
+[0.446s] running egg_info
+[0.452s] writing ../../build/ntrip_utils/ntrip_utils.egg-info/PKG-INFO
+[0.452s] writing dependency_links to ../../build/ntrip_utils/ntrip_utils.egg-info/dependency_links.txt
+[0.453s] writing entry points to ../../build/ntrip_utils/ntrip_utils.egg-info/entry_points.txt
+[0.453s] writing requirements to ../../build/ntrip_utils/ntrip_utils.egg-info/requires.txt
+[0.453s] writing top-level names to ../../build/ntrip_utils/ntrip_utils.egg-info/top_level.txt
+[0.465s] reading manifest file '../../build/ntrip_utils/ntrip_utils.egg-info/SOURCES.txt'
+[0.466s] writing manifest file '../../build/ntrip_utils/ntrip_utils.egg-info/SOURCES.txt'
+[0.466s] running build
+[0.466s] running build_py
+[0.466s] copying ntrip_utils/RTCM_bridge.py -> /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils
+[0.466s] copying ntrip_utils/gga_publisher.py -> /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils
+[0.466s] copying ntrip_utils/__init__.py -> /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils
+[0.466s] running install
+[0.468s] running install_lib
+[0.474s] copying /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils/gga_publisher.py -> /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils
+[0.474s] byte-compiling /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils/gga_publisher.py to gga_publisher.cpython-310.pyc
+[0.475s] running install_data
+[0.475s] copying resource/ntrip_utils -> /home/tardle/ntriptest/install/ntrip_utils/share/ament_index/resource_index/packages
+[0.475s] copying package.xml -> /home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils
+[0.475s] running install_egg_info
+[0.481s] removing '/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[0.482s] Copying ../../build/ntrip_utils/ntrip_utils.egg-info to /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils-0.0.0-py3.10.egg-info
+[0.482s] running install_scripts
+[0.494s] Installing gga_publisher script to /home/tardle/ntriptest/install/ntrip_utils/lib/ntrip_utils
+[0.495s] writing list of installed files to '/home/tardle/ntriptest/build/ntrip_utils/install.log'
+[0.505s] Invoked command in '/home/tardle/ntriptest/src/ntrip_utils' returned '0': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_utils build --build-base /home/tardle/ntriptest/build/ntrip_utils/build install --record /home/tardle/ntriptest/build/ntrip_utils/install.log --single-version-externally-managed install_data

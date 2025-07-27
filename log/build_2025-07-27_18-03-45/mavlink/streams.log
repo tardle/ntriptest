@@ -1,0 +1,7 @@
+[0.016s] Invoking command in '/home/tardle/ntriptest/build/mavlink': /usr/bin/cmake --build /home/tardle/ntriptest/build/mavlink -- -j32 -l32
+[0.127s] [100%] [34m[1mGenerating C headers[0m
+[0.334s] [31mERROR: Could not open requirements file: [Errno 2] No such file or directory: 'pymavlink/requirements.txt'[0m[31m
+[0.358s] [0mgmake[2]: *** [CMakeFiles/generate_c_headers.dir/build.make:73: include/mavlink/common/mavlink.h] Error 1
+[0.358s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/generate_c_headers.dir/all] Error 2
+[0.358s] gmake: *** [Makefile:136: all] Error 2
+[0.360s] Invoked command in '/home/tardle/ntriptest/build/mavlink' returned '2': /usr/bin/cmake --build /home/tardle/ntriptest/build/mavlink -- -j32 -l32

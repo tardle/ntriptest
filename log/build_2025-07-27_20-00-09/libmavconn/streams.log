@@ -1,0 +1,49 @@
+[0.125s] Invoking command in '/home/tardle/ntriptest/build/libmavconn': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --build /home/tardle/ntriptest/build/libmavconn -- -j32 -l32
+[0.174s] [ 16%] Built target gtest
+[0.179s] [ 33%] Built target gtest_main
+[0.202s] [ 83%] Built target mavconn
+[0.240s] [100%] Built target test_mavconn
+[0.245s] Invoked command in '/home/tardle/ntriptest/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --build /home/tardle/ntriptest/build/libmavconn -- -j32 -l32
+[0.252s] Invoking command in '/home/tardle/ntriptest/build/libmavconn': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --install /home/tardle/ntriptest/build/libmavconn
+[0.256s] -- Install configuration: ""
+[0.267s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/lib/libmavconn.so
+[0.267s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/tcp.hpp
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/msgbuffer.hpp
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/thread_utils.hpp
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/udp.hpp
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/console_bridge_compat.hpp
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/mavlink_dialect.hpp.em
+[0.268s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/interface.hpp
+[0.269s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/serial.hpp
+[0.269s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn
+[0.269s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[0.269s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake
+[0.269s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/Modules
+[0.270s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/Modules/FindASIO.cmake
+[0.270s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/Modules/em_expand.cmake
+[0.270s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/Modules/CheckGeographicLibDatasets.cmake
+[0.270s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/environment/library_path.sh
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/environment/library_path.dsv
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/ament_index/resource_index/package_run_dependencies/libmavconn
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/ament_index/resource_index/parent_prefix_path/libmavconn
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/environment/ament_prefix_path.sh
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/environment/ament_prefix_path.dsv
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/environment/path.sh
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/environment/path.dsv
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/local_setup.bash
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/local_setup.sh
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/local_setup.zsh
+[0.271s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/local_setup.dsv
+[0.271s] -- Installing: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.dsv
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/ament_index/resource_index/packages/libmavconn
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_libraries-extras.cmake
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake
+[0.274s] -- Up-to-date: /home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.xml
+[0.275s] Invoked command in '/home/tardle/ntriptest/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavlink:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble PKG_CONFIG_PATH=/home/tardle/ntriptest/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/tardle/ntriptest/install/mavlink/lib/pkgconfig /usr/bin/cmake --install /home/tardle/ntriptest/build/libmavconn

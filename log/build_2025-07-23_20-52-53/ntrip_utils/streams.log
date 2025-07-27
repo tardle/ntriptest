@@ -1,0 +1,32 @@
+[0.351s] Invoking command in '/home/tardle/ntriptest/src/ntrip_utils': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_utils build --build-base /home/tardle/ntriptest/build/ntrip_utils/build install --record /home/tardle/ntriptest/build/ntrip_utils/install.log --single-version-externally-managed install_data
+[0.415s] /home/tardle/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.415s]   warnings.warn(msg)
+[0.455s] running egg_info
+[0.462s] writing ../../build/ntrip_utils/ntrip_utils.egg-info/PKG-INFO
+[0.462s] writing dependency_links to ../../build/ntrip_utils/ntrip_utils.egg-info/dependency_links.txt
+[0.462s] writing entry points to ../../build/ntrip_utils/ntrip_utils.egg-info/entry_points.txt
+[0.462s] writing requirements to ../../build/ntrip_utils/ntrip_utils.egg-info/requires.txt
+[0.462s] writing top-level names to ../../build/ntrip_utils/ntrip_utils.egg-info/top_level.txt
+[0.476s] reading manifest file '../../build/ntrip_utils/ntrip_utils.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../../build/ntrip_utils/ntrip_utils.egg-info/SOURCES.txt'
+[0.477s] running build
+[0.477s] running build_py
+[0.477s] copying ntrip_utils/RTCM_bridge.py -> /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils
+[0.477s] copying ntrip_utils/gga_publisher.py -> /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils
+[0.477s] copying ntrip_utils/__init__.py -> /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils
+[0.477s] running install
+[0.479s] running install_lib
+[0.485s] copying /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils/RTCM_bridge.py -> /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils
+[0.485s] copying /home/tardle/ntriptest/build/ntrip_utils/build/lib/ntrip_utils/gga_publisher.py -> /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils
+[0.485s] byte-compiling /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils/RTCM_bridge.py to RTCM_bridge.cpython-310.pyc
+[0.485s] byte-compiling /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils/gga_publisher.py to gga_publisher.cpython-310.pyc
+[0.486s] running install_data
+[0.486s] copying resource/ntrip_utils -> /home/tardle/ntriptest/install/ntrip_utils/share/ament_index/resource_index/packages
+[0.486s] copying package.xml -> /home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils
+[0.486s] running install_egg_info
+[0.492s] removing '/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[0.492s] Copying ../../build/ntrip_utils/ntrip_utils.egg-info to /home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages/ntrip_utils-0.0.0-py3.10.egg-info
+[0.493s] running install_scripts
+[0.506s] Installing gga_publisher script to /home/tardle/ntriptest/install/ntrip_utils/lib/ntrip_utils
+[0.507s] writing list of installed files to '/home/tardle/ntriptest/build/ntrip_utils/install.log'
+[0.517s] Invoked command in '/home/tardle/ntriptest/src/ntrip_utils' returned '0': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_utils build --build-base /home/tardle/ntriptest/build/ntrip_utils/build install --record /home/tardle/ntriptest/build/ntrip_utils/install.log --single-version-externally-managed install_data

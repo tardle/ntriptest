@@ -1,0 +1,265 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-267e86989ecb9cd74438.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-3370d118e31866b3418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mavros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mavros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mavros_egg-d0e83cbd4caf32a4a46c.json",
+					"name" : "ament_cmake_python_build_mavros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mavros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mavros-08c686de7b9552c33160.json",
+					"name" : "ament_cmake_python_copy_mavros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mavros_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mavros_setup-4e61f1cd0e399570f2a9.json",
+					"name" : "ament_cmake_python_copy_mavros_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-876de569bab52d67439a.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-bfde73a23b1f18d67f56.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-4c3f18cdb919020ef129.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-3a5e05dab92b3371857d.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libmavros-frame-conversions-test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libmavros-frame-conversions-test-75e793e1f3963959d340.json",
+					"name" : "libmavros-frame-conversions-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libmavros-quaternion-utils-test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libmavros-quaternion-utils-test-e308270692cab07900a9.json",
+					"name" : "libmavros-quaternion-utils-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libmavros-sensor-orientation-test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libmavros-sensor-orientation-test-52741494ac06cfb01229.json",
+					"name" : "libmavros-sensor-orientation-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros-991d2ba4dfed986c3ecf.json",
+					"name" : "mavros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros-router-test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros-router-test-7883ace51414f13194c7.json",
+					"name" : "mavros-router-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros-uas-test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros-uas-test-4f5ca64dcdbcc4233448.json",
+					"name" : "mavros-uas-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros_node-01f2b86762af2d62a455.json",
+					"name" : "mavros_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros_plugins-57ec9a497c2b2a451cc5.json",
+					"name" : "mavros_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros_uninstall-bb25734f1a80c53879ea.json",
+					"name" : "mavros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9ed62892d53bd8a27fe5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tardle/ntriptest/build/mavros",
+		"source" : "/home/tardle/ntriptest/src/mavros/mavros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

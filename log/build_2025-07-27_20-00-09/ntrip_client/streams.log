@@ -1,0 +1,51 @@
+[0.851s] Invoking command in '/home/tardle/ntriptest/src/ntrip_client': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/tardle/ntriptest/build/ntrip_client/build install --record /home/tardle/ntriptest/build/ntrip_client/install.log --single-version-externally-managed install_data
+[0.953s] /home/tardle/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.953s]   warnings.warn(msg)
+[0.970s] /home/tardle/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.970s] !!
+[0.970s] 
+[0.970s]         ********************************************************************************
+[0.970s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.970s] 
+[0.970s]         License :: OSI Approved :: MIT Software License
+[0.970s] 
+[0.970s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.970s]         ********************************************************************************
+[0.970s] 
+[0.970s] !!
+[0.970s]   self._finalize_license_expression()
+[0.999s] running egg_info
+[1.005s] writing ../../build/ntrip_client/ntrip_client.egg-info/PKG-INFO
+[1.043s] writing dependency_links to ../../build/ntrip_client/ntrip_client.egg-info/dependency_links.txt
+[1.043s] writing requirements to ../../build/ntrip_client/ntrip_client.egg-info/requires.txt
+[1.043s] writing top-level names to ../../build/ntrip_client/ntrip_client.egg-info/top_level.txt
+[1.089s] reading manifest file '../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[1.092s] adding license file 'LICENSE'
+[1.093s] writing manifest file '../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[1.093s] running build
+[1.093s] running build_py
+[1.093s] copying src/ntrip_client/rtcm_parser.py -> /home/tardle/ntriptest/build/ntrip_client/build/lib/ntrip_client
+[1.098s] copying src/ntrip_client/ntrip_base.py -> /home/tardle/ntriptest/build/ntrip_client/build/lib/ntrip_client
+[1.098s] copying src/ntrip_client/ntrip_serial_device.py -> /home/tardle/ntriptest/build/ntrip_client/build/lib/ntrip_client
+[1.099s] copying src/ntrip_client/nmea_parser.py -> /home/tardle/ntriptest/build/ntrip_client/build/lib/ntrip_client
+[1.100s] copying src/ntrip_client/ntrip_client.py -> /home/tardle/ntriptest/build/ntrip_client/build/lib/ntrip_client
+[1.100s] copying src/ntrip_client/__init__.py -> /home/tardle/ntriptest/build/ntrip_client/build/lib/ntrip_client
+[1.101s] running build_scripts
+[1.101s] running install
+[1.105s] running install_lib
+[1.118s] running install_data
+[1.118s] copying resource/ntrip_client -> /home/tardle/ntriptest/install/ntrip_client/share/ament_index/resource_index/packages
+[1.118s] copying package.xml -> /home/tardle/ntriptest/install/ntrip_client/share/ntrip_client
+[1.180s] copying launch/ntrip_serial_device_launch.py -> /home/tardle/ntriptest/install/ntrip_client/share/ntrip_client
+[1.208s] running install_egg_info
+[1.216s] removing '/home/tardle/ntriptest/install/ntrip_client/lib/python3.10/site-packages/ntrip_client-1.4.0-py3.10.egg-info' (and everything under it)
+[1.216s] Copying ../../build/ntrip_client/ntrip_client.egg-info to /home/tardle/ntriptest/install/ntrip_client/lib/python3.10/site-packages/ntrip_client-1.4.0-py3.10.egg-info
+[1.219s] running install_scripts
+[1.245s] copying /home/tardle/ntriptest/build/ntrip_client/build/scripts-3.10/ntrip_ros.py -> /home/tardle/ntriptest/install/ntrip_client/lib/ntrip_client
+[1.303s] copying /home/tardle/ntriptest/build/ntrip_client/build/scripts-3.10/ntrip_serial_device_ros.py -> /home/tardle/ntriptest/install/ntrip_client/lib/ntrip_client
+[1.305s] copying /home/tardle/ntriptest/build/ntrip_client/build/scripts-3.10/ntrip_ros_base.py -> /home/tardle/ntriptest/install/ntrip_client/lib/ntrip_client
+[1.305s] changing mode of /home/tardle/ntriptest/install/ntrip_client/lib/ntrip_client/ntrip_ros.py to 755
+[1.305s] changing mode of /home/tardle/ntriptest/install/ntrip_client/lib/ntrip_client/ntrip_serial_device_ros.py to 755
+[1.305s] changing mode of /home/tardle/ntriptest/install/ntrip_client/lib/ntrip_client/ntrip_ros_base.py to 755
+[1.308s] writing list of installed files to '/home/tardle/ntriptest/build/ntrip_client/install.log'
+[1.324s] Invoked command in '/home/tardle/ntriptest/src/ntrip_client' returned '0': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/tardle/ntriptest/build/ntrip_client/build install --record /home/tardle/ntriptest/build/ntrip_client/install.log --single-version-externally-managed install_data

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ef4fb75b562d4f92effb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mavros_extras",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros_extras::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros_extras-67d15099848e3289f46e.json",
+					"name" : "mavros_extras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros_extras_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros_extras_plugins-3e7a9dbfac8bdba2d1c2.json",
+					"name" : "mavros_extras_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mavros_extras_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mavros_extras_uninstall-5f3ba1e03b4abba69d24.json",
+					"name" : "mavros_extras_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_state_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_state_publisher-d564cec9d8994f2f6f9e.json",
+					"name" : "servo_state_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d6d3ec91f737f0a9303d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tardle/ntriptest/build/mavros_extras",
+		"source" : "/home/tardle/ntriptest/src/mavros/mavros_extras"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

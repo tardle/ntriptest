@@ -1,0 +1,12 @@
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/uninstall.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/mavros_extras_uninstall.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/mavros_extras_plugins.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/mavros_extras.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/servo_state_publisher.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/test.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/edit_cache.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/rebuild_cache.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/list_install_components.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/install.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/install/local.dir
+/home/tardle/ntriptest/build/mavros_extras/CMakeFiles/install/strip.dir

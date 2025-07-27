@@ -1,0 +1,23 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- MAVLink dialect: common
+-- MAVLink version: 2.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tardle/ntriptest/build/mavlink
+[100%] [34m[1mGenerating C headers[0m
+[31mERROR: Could not open requirements file: [Errno 2] No such file or directory: 'pymavlink/requirements.txt'[0m[31m
+[0mgmake[2]: *** [CMakeFiles/generate_c_headers.dir/build.make:73: include/mavlink/common/mavlink.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/generate_c_headers.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

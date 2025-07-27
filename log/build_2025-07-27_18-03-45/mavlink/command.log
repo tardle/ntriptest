@@ -1,0 +1,2 @@
+Invoking command in '/home/tardle/ntriptest/build/mavlink': /usr/bin/cmake --build /home/tardle/ntriptest/build/mavlink -- -j32 -l32
+Invoked command in '/home/tardle/ntriptest/build/mavlink' returned '2': /usr/bin/cmake --build /home/tardle/ntriptest/build/mavlink -- -j32 -l32

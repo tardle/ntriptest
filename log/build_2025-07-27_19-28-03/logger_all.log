@@ -1,0 +1,493 @@
+[0.195s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.195s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x713ee0b4e710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x713ee0b4e200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x713ee0b4e200>>)
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.220s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tardle/ntriptest'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ntrip_client' with type 'ros.ament_python' and name 'ntrip_client'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_utils) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ntrip_utils' with type 'ros.ament_python' and name 'ntrip_utils'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/tardle/ntriptest/install
+[0.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 440 installed packages in /opt/ros/humble
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'libmavconn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tardle/ntriptest/build/libmavconn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tardle/ntriptest/install/libmavconn', 'merge_install': False, 'path': '/home/tardle/ntriptest/src/mavros/libmavconn', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tardle/ntriptest/build/mavros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tardle/ntriptest/install/mavros_msgs', 'merge_install': False, 'path': '/home/tardle/ntriptest/src/mavros/mavros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'ntrip_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tardle/ntriptest/build/ntrip_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tardle/ntriptest/install/ntrip_client', 'merge_install': False, 'path': '/home/tardle/ntriptest/src/ntrip_client', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'ntrip_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'ntrip_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tardle/ntriptest/build/ntrip_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tardle/ntriptest/install/ntrip_utils', 'merge_install': False, 'path': '/home/tardle/ntriptest/src/ntrip_utils', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'mavros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tardle/ntriptest/build/mavros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tardle/ntriptest/install/mavros', 'merge_install': False, 'path': '/home/tardle/ntriptest/src/mavros/mavros', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tardle/ntriptest/build/mavros_extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tardle/ntriptest/install/mavros_extras', 'merge_install': False, 'path': '/home/tardle/ntriptest/src/mavros/mavros_extras', 'symlink_install': False, 'test_result_base': None}
+[0.378s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tardle/ntriptest/src/mavros/libmavconn' with build type 'ament_cmake'
+[0.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tardle/ntriptest/src/mavros/libmavconn'
+[0.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tardle/ntriptest/src/mavros/mavros_msgs' with build type 'ament_cmake'
+[0.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tardle/ntriptest/src/mavros/mavros_msgs'
+[0.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tardle/ntriptest/src/ntrip_client' with build type 'ament_python'
+[0.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_client', 'ament_prefix_path')
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.ps1'
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.sh'
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tardle/ntriptest/src/ntrip_utils' with build type 'ament_python'
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_utils', 'ament_prefix_path')
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/hook/ament_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/hook/ament_prefix_path.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/hook/ament_prefix_path.sh'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --build /home/tardle/ntriptest/build/libmavconn -- -j32 -l32
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros_msgs -- -j32 -l32
+[0.501s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tardle/ntriptest/src/ntrip_client'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tardle/ntriptest/src/ntrip_utils'
+[0.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --build /home/tardle/ntriptest/build/libmavconn -- -j32 -l32
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --install /home/tardle/ntriptest/build/libmavconn
+[0.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --install /home/tardle/ntriptest/build/libmavconn
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn' for CMake module files
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn' for CMake config files
+[0.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/lib'
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/bin'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/lib/python3.10/site-packages'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/bin'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.bash'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.zsh'
+[0.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/libmavconn/share/colcon-core/packages/libmavconn)
+[0.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn' for CMake module files
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn' for CMake config files
+[0.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/lib'
+[0.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/bin'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/lib/python3.10/site-packages'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/libmavconn/bin'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.ps1'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.sh'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.bash'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/libmavconn/share/libmavconn/package.zsh'
+[0.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/libmavconn/share/colcon-core/packages/libmavconn)
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros_msgs -- -j32 -l32
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros_msgs
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/src/ntrip_utils': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_utils build --build-base /home/tardle/ntriptest/build/ntrip_utils/build install --record /home/tardle/ntriptest/build/ntrip_utils/install.log --single-version-externally-managed install_data
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/src/ntrip_client': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/tardle/ntriptest/build/ntrip_client/build install --record /home/tardle/ntriptest/build/ntrip_client/install.log --single-version-externally-managed install_data
+[1.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs' for CMake module files
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros_msgs
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs' for CMake config files
+[1.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/lib'
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/bin'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/lib/python3.10/site-packages'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/bin'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.sh'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.bash'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[1.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[1.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs' for CMake module files
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs' for CMake config files
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/lib'
+[1.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/bin'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/lib/python3.10/site-packages'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_msgs/bin'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[1.017s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tardle/ntriptest/src/mavros/mavros' with build type 'ament_cmake'
+[1.017s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tardle/ntriptest/src/mavros/mavros'
+[1.017s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.017s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_utils' for CMake module files
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/src/ntrip_utils' returned '0': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_utils build --build-base /home/tardle/ntriptest/build/ntrip_utils/build install --record /home/tardle/ntriptest/build/ntrip_utils/install.log --single-version-externally-managed install_data
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_utils' for CMake config files
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_utils/lib'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_utils/bin'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_utils/lib/pkgconfig/ntrip_utils.pc'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_utils/lib/python3.10/site-packages'
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_utils', 'pythonpath')
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/hook/pythonpath.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/hook/pythonpath.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/hook/pythonpath.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_utils/bin'
+[1.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ntrip_utils)
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/package.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/package.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/package.sh'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/package.bash'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_utils/share/ntrip_utils/package.zsh'
+[1.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/ntrip_utils/share/colcon-core/packages/ntrip_utils)
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_client' for CMake module files
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/src/ntrip_client' returned '0': PYTHONPATH=/home/tardle/ntriptest/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tardle/ntriptest/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/tardle/ntriptest/build/ntrip_client/build install --record /home/tardle/ntriptest/build/ntrip_client/install.log --single-version-externally-managed install_data
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_client' for CMake config files
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_client/lib'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_client/bin'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_client/lib/pkgconfig/ntrip_client.pc'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_client/lib/python3.10/site-packages'
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_client', 'pythonpath')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/hook/pythonpath.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/hook/pythonpath.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/hook/pythonpath.sh'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/ntrip_client/bin'
+[1.052s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ntrip_client)
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/package.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/package.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/package.sh'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/package.bash'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/ntrip_client/share/ntrip_client/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/ntrip_client/share/colcon-core/packages/ntrip_client)
+[1.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/mavros': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/home/tardle/ntriptest/install/mavros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros -- -j32 -l32
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/home/tardle/ntriptest/install/mavros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros -- -j32 -l32
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/mavros': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/home/tardle/ntriptest/install/mavros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros
+[1.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros' for CMake module files
+[1.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/home/tardle/ntriptest/install/mavros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros' for CMake config files
+[1.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/lib'
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/bin'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/lib/pkgconfig/mavros.pc'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/lib/python3.10/site-packages'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/bin'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/mavros/share/mavros/package.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.sh'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.zsh'
+[1.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/mavros/share/colcon-core/packages/mavros)
+[1.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros' for CMake module files
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros' for CMake config files
+[1.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/lib'
+[1.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/bin'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/lib/pkgconfig/mavros.pc'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/lib/python3.10/site-packages'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros/bin'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/mavros/share/mavros/package.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.sh'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.bash'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros/share/mavros/package.zsh'
+[1.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/mavros/share/colcon-core/packages/mavros)
+[1.382s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tardle/ntriptest/src/mavros/mavros_extras' with build type 'ament_cmake'
+[1.382s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tardle/ntriptest/src/mavros/mavros_extras'
+[1.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/mavros_extras': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros_extras -- -j32 -l32
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros_extras -- -j32 -l32
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tardle/ntriptest/build/mavros_extras': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros_extras
+[1.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tardle/ntriptest/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros:/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/mavros_extras:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros/lib:/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:/home/tardle/ntriptest/install/mavros_extras/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros_extras
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras' for CMake module files
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras' for CMake config files
+[1.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/lib'
+[1.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/bin'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/lib/python3.10/site-packages'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/bin'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.ps1'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.dsv'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.sh'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.bash'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.zsh'
+[1.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[1.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras' for CMake module files
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras' for CMake config files
+[1.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/lib'
+[1.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/bin'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/lib/python3.10/site-packages'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/tardle/ntriptest/install/mavros_extras/bin'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.dsv'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.sh'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.bash'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/tardle/ntriptest/install/mavros_extras/share/mavros_extras/package.zsh'
+[1.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tardle/ntriptest/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[1.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.672s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.703s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.703s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.703s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.703s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tardle/ntriptest/install/local_setup.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tardle/ntriptest/install/_local_setup_util_ps1.py'
+[1.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tardle/ntriptest/install/setup.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tardle/ntriptest/install/local_setup.sh'
+[1.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tardle/ntriptest/install/_local_setup_util_sh.py'
+[1.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tardle/ntriptest/install/setup.sh'
+[1.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tardle/ntriptest/install/local_setup.bash'
+[1.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tardle/ntriptest/install/setup.bash'
+[1.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tardle/ntriptest/install/local_setup.zsh'
+[1.709s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tardle/ntriptest/install/setup.zsh'

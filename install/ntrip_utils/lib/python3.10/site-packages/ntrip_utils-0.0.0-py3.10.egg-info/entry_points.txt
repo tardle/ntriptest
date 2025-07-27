@@ -1,0 +1,2 @@
+[console_scripts]
+gga_publisher = ntrip_utils.gga_publisher:main

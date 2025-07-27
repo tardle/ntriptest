@@ -1,0 +1,275 @@
+[0.111s] Invoking command in '/home/tardle/ntriptest/build/mavros': AMENT_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tardle/ntriptest/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tardle/ntriptest/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/tardle/ntriptest/install/mavros
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.505s] -- The CXX compiler identification is GNU 11.4.0
+[0.733s] -- Detecting C compiler ABI info
+[0.829s] -- Detecting C compiler ABI info - done
+[0.832s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.833s] -- Detecting C compile features
+[0.833s] -- Detecting C compile features - done
+[0.834s] -- Detecting CXX compiler ABI info
+[0.932s] -- Detecting CXX compiler ABI info - done
+[0.936s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.936s] -- Detecting CXX compile features
+[0.936s] -- Detecting CXX compile features - done
+[0.937s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.127s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.177s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.311s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.317s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.328s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.408s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.412s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.203s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.092s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.583s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.594s] -- Looking for pthread.h
+[4.677s] -- Looking for pthread.h - found
+[4.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.763s] -- Found Threads: TRUE  
+[4.823s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.850s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.610s] -- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+[5.615s] -- Found libmavconn: 2.10.1 (/home/tardle/ntriptest/install/libmavconn/share/libmavconn/cmake)
+[5.618s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.623s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.646s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[5.648s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[5.652s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[5.656s] -- Found tf2_eigen: 0.25.13 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.741s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[5.756s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[5.762s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[5.777s] -- Found mavros_msgs: 2.10.1 (/home/tardle/ntriptest/install/mavros_msgs/share/mavros_msgs/cmake)
+[5.813s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.829s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.841s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[6.013s] -- No geoid model datasets found. This will result on a SIGINT! Please execute the script install_geographiclib_dataset.sh
+[6.013s] -- No gravity field model datasets found.
+[6.013s] Please execute the script install_geographiclib_dataset.sh
+[6.013s] -- No magnetic field model datasets found. Please execute the script install_geographiclib_dataset.sh
+[6.066s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.068s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.072s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[6.074s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.523s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.534s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.840s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.840s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tardle/ntriptest/src/mavros/mavros/include>
+[7.840s] -- Configured cppcheck exclude dirs and/or files: ./test/*.cpp
+[7.842s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.842s] -- Configured cpplint exclude dirs and/or files: 
+[7.842s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.843s] -- Added test 'lint_cmake' to check CMake code style
+[7.843s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.845s] -- Added test 'uncrustify' to check C / C++ code style
+[7.845s] -- Configured uncrustify additional arguments: 
+[7.846s] -- Added test 'xmllint' to check XML markup files
+[7.847s] -- Configuring done
+[7.884s] -- Generating done
+[7.894s] -- Build files have been written to: /home/tardle/ntriptest/build/mavros
+[7.902s] Invoked command in '/home/tardle/ntriptest/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tardle/ntriptest/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tardle/ntriptest/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/tardle/ntriptest/install/mavros
+[7.903s] Invoking command in '/home/tardle/ntriptest/build/mavros': AMENT_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tardle/ntriptest/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros -- -j32 -l32
+[7.930s] [  1%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o[0m
+[7.931s] [  3%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_router.cpp.o[0m
+[7.931s] [  4%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_data.cpp.o[0m
+[7.932s] [  6%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_executor.cpp.o[0m
+[7.932s] [  8%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o[0m
+[7.932s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.933s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[7.933s] [ 14%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_frame_conversions.cpp.o[0m
+[7.933s] [ 14%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_to_string.cpp.o[0m
+[7.933s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.933s] [ 17%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/plugin.cpp.o[0m
+[7.933s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[7.933s] [ 20%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_uas.cpp.o[0m
+[7.933s] [ 22%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_stringify.cpp.o[0m
+[7.933s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[7.933s] [ 25%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_ap.cpp.o[0m
+[7.935s] [ 25%] Built target ament_cmake_python_copy_mavros_setup
+[7.935s] [ 27%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_tf.cpp.o[0m
+[7.935s] [ 29%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_timesync.cpp.o[0m
+[7.936s] [ 29%] Built target ament_cmake_python_copy_mavros
+[8.100s] running egg_info
+[8.116s] creating mavros.egg-info
+[8.116s] writing mavros.egg-info/PKG-INFO
+[8.117s] writing dependency_links to mavros.egg-info/dependency_links.txt
+[8.117s] writing entry points to mavros.egg-info/entry_points.txt
+[8.117s] writing top-level names to mavros.egg-info/top_level.txt
+[8.117s] writing manifest file 'mavros.egg-info/SOURCES.txt'
+[8.146s] reading manifest file 'mavros.egg-info/SOURCES.txt'
+[8.147s] writing manifest file 'mavros.egg-info/SOURCES.txt'
+[8.163s] [ 29%] Built target ament_cmake_python_build_mavros_egg
+[8.718s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.748s] [ 30%] Built target gtest_main
+[8.919s] [ 32%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.948s] [ 32%] Built target gmock_main
+[10.396s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[10.456s] [ 33%] Built target gmock
+[10.525s] [ 35%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.566s] [ 35%] Built target gtest
+[17.877s] [ 37%] [32m[1mLinking CXX shared library libmavros.so[0m
+[18.780s] [ 37%] Built target mavros
+[18.793s] [ 38%] [32mBuilding CXX object CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o[0m
+[18.794s] [ 41%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o[0m
+[18.794s] [ 41%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o[0m
+[18.795s] [ 43%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o[0m
+[18.795s] [ 45%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o[0m
+[18.795s] [ 46%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o[0m
+[18.796s] [ 48%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o[0m
+[18.796s] [ 53%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o[0m
+[18.796s] [ 53%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o[0m
+[18.796s] [ 53%] [32mBuilding CXX object CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o[0m
+[18.797s] [ 54%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o[0m
+[18.797s] [ 58%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o[0m
+[18.797s] [ 58%] [32mBuilding CXX object CMakeFiles/libmavros-quaternion-utils-test.dir/test/test_quaternion_utils.cpp.o[0m
+[18.799s] [ 59%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o[0m
+[18.799s] [ 61%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o[0m
+[18.799s] [ 62%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o[0m
+[18.799s] [ 66%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o[0m
+[18.799s] [ 66%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o[0m
+[18.799s] [ 67%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o[0m
+[18.799s] [ 69%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o[0m
+[18.804s] [ 70%] [32mBuilding CXX object CMakeFiles/mavros-uas-test.dir/test/test_uas.cpp.o[0m
+[18.804s] [ 72%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o[0m
+[18.804s] [ 74%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o[0m
+[18.804s] [ 75%] [32mBuilding CXX object CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o[0m
+[18.804s] [ 77%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o[0m
+[18.804s] [ 79%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o[0m
+[18.804s] [ 80%] [32mBuilding CXX object CMakeFiles/mavros-router-test.dir/test/test_router.cpp.o[0m
+[18.804s] [ 82%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o[0m
+[18.804s] [ 85%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o[0m
+[18.804s] [ 85%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o[0m
+[18.804s] [ 87%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o[0m
+[18.823s] [ 88%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o[0m
+[24.835s] [ 90%] [32m[1mLinking CXX executable libmavros-frame-conversions-test[0m
+[25.781s] [ 90%] Built target libmavros-frame-conversions-test
+[25.823s] [ 91%] [32m[1mLinking CXX executable libmavros-quaternion-utils-test[0m
+[26.799s] [ 91%] Built target libmavros-quaternion-utils-test
+[28.067s] [ 93%] [32m[1mLinking CXX executable libmavros-sensor-orientation-test[0m
+[29.022s] [ 93%] Built target libmavros-sensor-orientation-test
+[30.629s] [ 95%] [32m[1mLinking CXX executable mavros_node[0m
+[31.507s] [ 95%] Built target mavros_node
+[32.007s] [ 96%] [32m[1mLinking CXX executable mavros-router-test[0m
+[32.916s] [ 96%] Built target mavros-router-test
+[33.368s] [ 98%] [32m[1mLinking CXX executable mavros-uas-test[0m
+[34.252s] [ 98%] Built target mavros-uas-test
+[39.887s] [100%] [32m[1mLinking CXX shared library libmavros_plugins.so[0m
+[45.965s] [100%] Built target mavros_plugins
+[45.974s] Invoked command in '/home/tardle/ntriptest/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tardle/ntriptest/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tardle/ntriptest/build/mavros -- -j32 -l32
+[45.976s] Invoking command in '/home/tardle/ntriptest/build/mavros': AMENT_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tardle/ntriptest/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros
+[45.982s] -- Install configuration: ""
+[45.982s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/mavros_plugins.xml
+[45.983s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/pythonpath.sh
+[45.983s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/pythonpath.dsv
+[45.983s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info
+[45.983s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/top_level.txt
+[45.984s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/dependency_links.txt
+[45.984s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/PKG-INFO
+[45.984s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/entry_points.txt
+[45.984s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/SOURCES.txt
+[45.984s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros
+[45.984s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/mission.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/ftp.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/setpoint.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/local_position.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/system.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/command.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/checkid.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__main__.py
+[45.985s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/mission.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/ftp.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/system.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/safety.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/utils.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/cmd.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/param.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__init__.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/base.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/utils.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/mavlink.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/global_position.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/param.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/nuttx_crc32.py
+[45.986s] -- Installing: /home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/__init__.py
+[46.017s] Listing '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/__init__.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/base.py'...
+[46.017s] Listing '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__init__.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__main__.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/checkid.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/cmd.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/ftp.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/mission.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/param.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/safety.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/system.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/utils.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/command.py'...
+[46.017s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/ftp.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/global_position.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/local_position.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/mavlink.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/mission.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/nuttx_crc32.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/param.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/setpoint.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/system.py'...
+[46.018s] Compiling '/home/tardle/ntriptest/install/mavros/local/lib/python3.10/dist-packages/mavros/utils.py'...
+[46.020s] -- Installing: /home/tardle/ntriptest/install/mavros/lib/mavros/mav
+[46.020s] -- Installing: /home/tardle/ntriptest/install/mavros/lib/libmavros.so
+[46.027s] -- Set runtime path of "/home/tardle/ntriptest/install/mavros/lib/libmavros.so" to ""
+[46.027s] -- Installing: /home/tardle/ntriptest/install/mavros/lib/mavros/mavros_node
+[46.029s] -- Set runtime path of "/home/tardle/ntriptest/install/mavros/lib/mavros/mavros_node" to ""
+[46.029s] -- Installing: /home/tardle/ntriptest/install/mavros/lib/libmavros_plugins.so
+[46.079s] -- Set runtime path of "/home/tardle/ntriptest/install/mavros/lib/libmavros_plugins.so" to ""
+[46.079s] -- Installing: /home/tardle/ntriptest/install/mavros/lib/mavros/install_geographiclib_datasets.sh
+[46.079s] -- Installing: /home/tardle/ntriptest/install/mavros/include
+[46.079s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros
+[46.079s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/px4_custom_mode.hpp
+[46.079s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/mavros_router.hpp
+[46.079s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/mission_protocol_base.hpp
+[46.079s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/plugin.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/utils.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/mavros_uas.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/uas_executor.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/setpoint_mixin.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/frame_tf.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/plugin_filter.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/include/mavros/mavros_plugin_register_macro.hpp
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/px4_config.yaml
+[46.080s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/apm_pluginlists.yaml
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/apm_config.yaml
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/multi_uas.launch
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/px4_pluginlists.yaml
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/node.launch
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/px4.launch
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/launch/apm.launch
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/library_path.sh
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/library_path.dsv
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/ament_index/resource_index/package_run_dependencies/mavros
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/ament_index/resource_index/parent_prefix_path/mavros
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/ament_prefix_path.sh
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/ament_prefix_path.dsv
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/path.sh
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/environment/path.dsv
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/local_setup.bash
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/local_setup.sh
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/local_setup.zsh
+[46.081s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/local_setup.dsv
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/package.dsv
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/ament_index/resource_index/packages/mavros
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/ament_index/resource_index/rclcpp_components/mavros
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/cmake/ament_cmake_export_libraries-extras.cmake
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/cmake/mavrosConfig.cmake
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/cmake/mavrosConfig-version.cmake
+[46.082s] -- Installing: /home/tardle/ntriptest/install/mavros/share/mavros/package.xml
+[46.083s] Invoked command in '/home/tardle/ntriptest/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tardle/ntriptest/install/mavros_msgs:/home/tardle/ntriptest/install/libmavconn:/home/tardle/ntriptest/install/ntrip_utils:/home/tardle/ntriptest/install/ntrip_client:/opt/ros/humble LD_LIBRARY_PATH=/home/tardle/ntriptest/install/mavros_msgs/lib:/home/tardle/ntriptest/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tardle/ntriptest/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tardle/ntriptest/build/mavros
