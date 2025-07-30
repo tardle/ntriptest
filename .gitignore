@@ -2,3 +2,6 @@ build/
 install/
 log/
 *.so
+build/
+install/
+log/
