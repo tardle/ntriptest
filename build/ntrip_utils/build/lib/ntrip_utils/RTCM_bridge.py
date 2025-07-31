@@ -17,11 +17,11 @@ class RTCMBridge(Node):
         # Publisher to /mavros/rtcm
         self.publisher = self.create_publisher(
             RTCM,
-            '/mavros/rtcm',
+            '/mavros/gps_rtk/send_rtcm',
             10
         )
 
-        self.get_logger().info("RTCM Bridge Node started — forwarding /rtcm → /mavros/rtcm")
+        self.get_logger().info("RTCM Bridge Node started — forwarding /rtcm → /mavros/gps_rtk/send_rtcm")
 
     def rtcm_callback(self, msg):
         # Forward the message directly

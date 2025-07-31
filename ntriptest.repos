@@ -1,0 +1,13 @@
+repositories:
+  mavlink:
+    type: git
+    url: https://github.com/ros2-gbp/mavlink-gbp-release.git
+    version: 0724866ad923c9e411c055a93d5765c795b6c840
+  mavros:
+    type: git
+    url: https://github.com/mavlink/mavros.git
+    version: aaedc49c00e9d501a1c9aac26b9ccb2fbd498eda
+  ntrip_client:
+    type: git
+    url: https://github.com/LORD-MicroStrain/ntrip_client.git
+    version: ros2

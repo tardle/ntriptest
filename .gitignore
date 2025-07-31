@@ -1,7 +1,6 @@
-build/
-install/
-log/
-*.so
+/src/mavros/
+/src/mavlink/
+/src/ntrip_client/
 build/
 install/
 log/
